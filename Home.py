@@ -7,7 +7,7 @@ st.sidebar.title("Giới thiệu")
 st.sidebar.info(
     """
     - Web App URL: <https://streamlit.gishub.org>
-    - GitHub lưu trữ: <https://github.com/giswqs/streamlit-geospatial>
+    - GitHub lưu trữ: <https://github.com/funnyhop/NDVI_plant_health>
     """
 )
 
@@ -51,7 +51,7 @@ st.markdown(
 
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
-    st.image("https://github.com/funnyhop/B2003785/blob/main/ndvi_timelapse.gif?raw=true")
+    # st.image("")
     st.image("https://github.com/giswqs/data/raw/main/timelapse/las_vegas.gif")
 
 with row1_col2:
